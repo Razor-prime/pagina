@@ -1,0 +1,45 @@
+.header {
+    background-color: rgb(95, 89, 89);
+    padding: 9%;
+    position: relative; 
+}
+
+.titulo-principal {
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 40px;
+    font-family: fantasy;
+    color: white;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    right: 20px;
+}
+a{
+    font-size: 25px;
+    color: rgb(196, 207, 207);
+    text-decoration: none;
+}
+
+.link{
+   color:blue;
+   font-size: medium;
+}
+
+.contenido{
+    font-size: 25px;
+    font-family: initial;
+}
+
+
+
